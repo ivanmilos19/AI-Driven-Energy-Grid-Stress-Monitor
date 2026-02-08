@@ -1,6 +1,9 @@
 # AI-Driven-Energy-Grid-Stress-Monitor
 This project is an end-to-end data pipeline that predicts real-time grid instability. Using Machine Learning (Random Forest), it analyzes weather patterns and historical load data to calculate a "Grid Stress Rating"—giving grid operators a "Digital Council" of predictions to prevent blackouts before they happen.
 
+<img width="1946" height="1086" alt="image" src="https://github.com/user-attachments/assets/1a916c3d-a4a6-4862-9892-e9c64b01097d" />
+
+
 # The Architecture
 
 The project is built on a Medallion Architecture using Databricks and Unity Catalog:
