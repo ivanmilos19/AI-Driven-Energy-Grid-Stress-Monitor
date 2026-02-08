@@ -18,8 +18,6 @@ The project is built on a Medallion Architecture using Databricks and Unity Cata
 
 # The "Digital Council" (Machine Learning)
 
-We moved away from simple "Yes/No" predictions to a probabilistic model.
-
   - Model: Random Forest Classifier.
 
   - Intuition: The model consists of 100+ decision trees. If 15 trees detect a dangerous pattern, the Grid Stress Rating becomes 15%.
@@ -27,8 +25,6 @@ We moved away from simple "Yes/No" predictions to a probabilistic model.
   - Features: Temperature (2m), Wind Speed (10m), Hour of Day, and Historical Load.
 
 # Dashboard Features
-
-The Power BI dashboard provides a "Control Room" view:
 
   - Grid Stress Score: A dynamic gauge that changes color (🟢 🟡 🔴) based on the "consensus" of the ML model.
 
